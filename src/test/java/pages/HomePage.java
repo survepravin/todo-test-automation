@@ -36,6 +36,7 @@ public class HomePage {
 	public void addItem(String text) {
 		txtInput.sendKeys(text);
 		txtInput.sendKeys(Keys.ENTER);
+		wrapper.wait(1000);
 	}
 	
 	public boolean verifyTextInList(String text) {
