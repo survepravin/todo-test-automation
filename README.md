@@ -54,3 +54,6 @@ Pages represents Application page, UI elements and methods are defined in these 
 All the tests in this package. e.g PostiveTest.java and NegativeTest.java.
 BaseTest.java has hooks as a pre-requiste for tests.
 
+#### CI/CD with Github-Actions
+As PR is created or PR is merged to Main branch, github-actions will be trigged. This will help in regression tests and continuous deployment.
+_**https://github.com/survepravin/todo-test-automation/actions/workflows/maven.yml**_
